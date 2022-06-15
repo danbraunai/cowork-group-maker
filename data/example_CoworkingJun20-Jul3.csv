@@ -1,0 +1,12 @@
+Timestamp,Q1,Q2,Q3 [Monday],Q3 [Tuesday],Q3 [Wednesday],Q3 [Thursday],Q3 [Friday],Q3 [Saturday],Q3 [Sunday],Q4,Q5,Q6
+2022/06/13 3:06:25 pm GMT+10,John,1,12am-2am;2am-4am;4am-6am;6am-8am;8am-10am,12am-2am;2am-4am;4am-6am;6am-8am;8am-10am,,12am-2am;2am-4am;4am-6am,12am-2am;4am-6am;6am-8am;8am-10am,12am-2am;2am-4am;4am-6am,,,,Yes
+2022/06/13 3:06:56 pm GMT+10,Mary,2,12am-2am;2am-4am;8pm-10pm;10pm-12am,12am-2am;2am-4am;8pm-10pm;10pm-12am,8pm-10pm;10pm-12am,12am-2am;2am-4am;8pm-10pm;10pm-12am,12am-2am;2am-4am;8pm-10pm;10pm-12am,12am-2am;2am-4am;8pm-10pm;10pm-12am,,,,Yes
+2022/06/13 3:07:15 pm GMT+10,Sarah,3,12am-2am;2am-4am;4am-6am,12am-2am;2am-4am;4am-6am,12am-2am;2am-4am;4am-6am,12am-2am;2am-4am;4am-6am,12am-2am;2am-4am;4am-6am,12am-2am;2am-4am;4am-6am,,,,No
+2022/06/13 3:08:03 pm GMT+10,Walter,3,8am-10am;10am-12pm;12pm-2pm,8am-10am;10am-12pm;12pm-2pm,8am-10am;10am-12pm,8am-10am;12pm-2pm,8am-10am;10am-12pm,10am-12pm,8am-10am;10am-12pm;12pm-2pm;2pm-4pm;4pm-6pm,Joe,Mary,No
+2022/06/13 3:08:33 pm GMT+10,Joe,2,4am-6am;6am-8am;8am-10am;10am-12pm,4am-6am;6am-8am;8am-10am,8am-10am;10am-12pm,,4am-6am;6am-8am;8am-10am;10am-12pm,6am-8am;8am-10am;10am-12pm,,,,
+2022/06/13 3:08:55 pm GMT+10,Susan,1,12pm-2pm;2pm-4pm;6pm-8pm,12pm-2pm;2pm-4pm,2pm-4pm,,,,,,,
+2022/06/13 3:09:21 pm GMT+10,April,2,12am-2am;2am-4am;8am-10am,2am-4am;4am-6am;8am-10am;10pm-12am,12am-2am;4am-6am;10pm-12am,10pm-12am,10am-12pm;8pm-10pm;10pm-12am,,,,,No
+2022/06/13 3:09:49 pm GMT+10,Derek,2,10am-12pm;12pm-2pm,10am-12pm;12pm-2pm;2pm-4pm,10am-12pm;12pm-2pm;4pm-6pm,10am-12pm;12pm-2pm;2pm-4pm;4pm-6pm,10am-12pm;12pm-2pm;2pm-4pm,10am-12pm;12pm-2pm;2pm-4pm,10am-12pm;12pm-2pm;2pm-4pm,,April,No
+2022/06/13 3:10:12 pm GMT+10,Percy,3,12am-2am,,,,12am-2am;2am-4am;4am-6am,,,,,No
+2022/06/13 3:10:31 pm GMT+10,Paul,3,6pm-8pm;8pm-10pm,,,6pm-8pm;8pm-10pm,,,,,,No
+2022/06/13 3:12:00 pm GMT+10,John,1,4am-6am;6am-8am,,,4am-6am;6am-8am,,,,,,No
