@@ -204,8 +204,11 @@ def run(args):
 
     raw_df = clean_df(raw_df)
 
-    manual_group_df = pd.read_csv(args.manual_group_file, header=None)
-    manual_groups = [manual_group_df[col].dropna().tolist() for col in manual_group_df]
+    if args.manual_group_file:
+        manual_group_df = pd.read_csv(args.manual_group_file, header=None)
+        manual_groups = [manual_group_df[col].dropna().tolist() for col in manual_group_df]
+    else:
+        manual_groups = []
 
     # Remove the people who are in manual groups
     df = raw_df.loc[~raw_df["name"].isin(flatten(manual_groups))].copy()
@@ -256,7 +259,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--csv_in", type=str, default="data/example_CoworkingJun20-Jul3.csv")
     parser.add_argument("--csv_out", type=str, default="data/example_GroupsJun20-Jul3.csv")
-    parser.add_argument("--manual_group_file", type=str, default = "data/example_manual_groupsJun20-Jul3.csv")
+    parser.add_argument("--manual_group_file", type=str)
     parser.add_argument("--num_trials", type=int, default=1000000)
     args = parser.parse_args()
     run(args)
